@@ -1,0 +1,58 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body 
+{
+    font-size:16px;
+}
+.main 
+{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background:lightblue;
+}
+
+.nav 
+{
+    height:10%;
+    width:100%;
+    margin-top:2em;
+    display:flex;
+}
+.logo 
+{
+    height:100%;
+    width:30%;
+}
+.content 
+{
+    height:100%;
+    width:60%;
+    margin-left:10em;
+}
+
+.navig li 
+{
+    margin-left:5em;
+    display:inline;
+    list-style:none;
+}
+
+li 
+{
+    margin:2em 0.2em;
+}
+
+.navig li a 
+{
+    text-decoration:none;
+}
+
+li a:hover 
+{
+    text-decoration:underline;
+}
