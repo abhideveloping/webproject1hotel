@@ -56,3 +56,13 @@ li a:hover
 {
     text-decoration:underline;
 }
+
+.img 
+{
+    height:60%;
+    width:80%;
+    margin-top:2em;
+    margin-left:8em;
+    background-image:url('../img/pic1.jpg');
+    background-size:100% 100%;
+}
